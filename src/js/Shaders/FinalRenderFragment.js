@@ -1,4 +1,4 @@
-export const FINAL_RENDER_FRAGMENT = `
+export const FINAL_RENDER_FRAGMENT = /*glsl*/ `
 uniform sampler2D diffuseTexture;
 			uniform sampler2D pointsTexture;
 			uniform float isMonochrome;
@@ -54,4 +54,4 @@ uniform sampler2D diffuseTexture;
 				
 
 			}
-            `
+            `;

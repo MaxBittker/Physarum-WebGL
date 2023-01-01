@@ -1,4 +1,4 @@
-export const RENDER_DOTS_VERTEX = `
+export const RENDER_DOTS_VERTEX = /*glsl*/ `
 uniform sampler2D positionTexture;
 uniform vec3 dotSizes;
 varying float team;
@@ -8,4 +8,4 @@ void main(){
     team = posText.a;
     gl_PointSize = dotSizes[int(team)];
 }
-`
+`;

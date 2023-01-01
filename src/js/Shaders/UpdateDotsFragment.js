@@ -1,4 +1,5 @@
-export const UPDATE_DOTS_FRAGMENT = `
+
+export const UPDATE_DOTS_FRAGMENT = /*glsl*/`
     uniform vec2 resolution; 
 			
     uniform float mouseRad;

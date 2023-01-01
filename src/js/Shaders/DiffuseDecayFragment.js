@@ -1,7 +1,7 @@
 /**
  * Adapted from https://github.com/nicoptere/physarum/blob/master/src/glsl/diffuse_decay_fs.glsl
  */
-export const DIFFUSE_DECAY_FRAGMENT = `
+export const DIFFUSE_DECAY_FRAGMENT = /*glsl*/ `
 uniform sampler2D points;
 		uniform sampler2D input_texture;
 		uniform vec2 resolution;
@@ -40,4 +40,4 @@ uniform sampler2D points;
 			gl_FragColor =  vec4( max(0.,min(1.,col.r * decay + pos)), max(0.,min(1.,col.g * decay + pos2)), max(0.,min(1.,col.b * decay+ pos3)),1.);
 			
 		
-		}`
+		}`;

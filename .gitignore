@@ -2,3 +2,5 @@
 /css.zip
 /descr.txt
 /node_modules
+/.parcel-cache
+/dist

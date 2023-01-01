@@ -1,4 +1,4 @@
-export const RENDER_DOTS_FRAGMENT = `
+export const RENDER_DOTS_FRAGMENT = /*glsl*/ `
 uniform sampler2D particleTexture;
 uniform bool isParticleTexture;
 varying float team;
@@ -28,4 +28,4 @@ void main(){
         gl_FragColor =  vec4( r,g, b ,1.) ;//* texture2D(particleTexture,gl_PointCoord);
     }
 }
-`
+`;
